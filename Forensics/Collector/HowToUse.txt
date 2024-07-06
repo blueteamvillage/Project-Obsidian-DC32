@@ -7,5 +7,8 @@
 * - /VR3 = S3 Secret Key                              *
 *******************************************************
 
-Command Usage:
+Command Usage Windows: Must be run as Admin (It will auto escalate if not)
 A-AChDC32.exe /VR0:<Name of S3 Bucket> /VR1:<Reion> /VR2:<AWS ID> /VR3:<AWS Secret Key>
+
+Command Usage Linux: Must be run as root
+AChDC32 /VR0:<Name of S3 Bucket> /VR1:<Reion> /VR2:<AWS ID> /VR3:<AWS Secret Key>
